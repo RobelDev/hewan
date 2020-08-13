@@ -1,0 +1,38 @@
+{
+  "name": "hewan",
+  "version": "1.0.0",
+  "description": "dating app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobelDev/hewan.git"
+  },
+  "author": "Robel Tegegne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobelDev/hewan/issues"
+  },
+  "homepage": "https://github.com/RobelDev/hewan#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.6.1",
+    "google-auth-library": "^6.0.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.28",
+    "morgan": "^1.10.0",
+    "sharp": "^0.25.4"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.4"
+  }
+}
