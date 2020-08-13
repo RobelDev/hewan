@@ -1,0 +1,9 @@
+{
+  "mongoURI": "mongodb+srv://robelt:robelt@cluster0.1i0jm.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecretKey": "thisisjwtsecretkeygibberishstuffrandomstuffelllllleelellelee",
+  "FACEBOOK_CLIENT_ID": "627167738008047",
+  "FACEBOOK_CLIENT_SECRET": "aeb2152d2ae38e235b1444a02e184bc1",
+
+  "GOOGLE_OAUTH_CLIENT_ID": "458987910995-e6up20bsk0sunbskslmpb7dt6b7p3kf2.apps.googleusercontent.com",
+  "GOOGLE_OAUTH_SECRET_ID": "h4-UT1otVE2EUnvA0ugC4aFC"
+}
