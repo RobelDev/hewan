@@ -35,7 +35,6 @@ const ProfileSchema = new mongoose.Schema({
 
   passion: {
     type: String,
-    required: true,
   },
 
   languages: {
@@ -57,10 +56,6 @@ const ProfileSchema = new mongoose.Schema({
     type: String,
   },
 
-  boost: {
-    type: Boolean,
-    default: false,
-  },
   insta: {
     type: String,
   },
@@ -89,7 +84,36 @@ const ProfileSchema = new mongoose.Schema({
     type: Object,
   },
 
+  boost: {
+    type: Boolean,
+    default: false,
+  },
+
   likes: [
+    {
+      profile: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "profile",
+      },
+    },
+  ],
+  myliked: [
+    {
+      profile: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "profile",
+      },
+    },
+  ],
+  mysuperliked: [
+    {
+      profile: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "profile",
+      },
+    },
+  ],
+  mydisliked: [
     {
       profile: {
         type: mongoose.Schema.Types.ObjectId,
